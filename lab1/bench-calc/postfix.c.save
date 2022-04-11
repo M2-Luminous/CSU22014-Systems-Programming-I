@@ -1,0 +1,19 @@
+#include "postfix.h"
+
+// evaluate expression stored as an array of string tokens
+double evaluate_postfix_expression(char ** args, int nargs) {
+  // Write your code here
+	struct double_stack * stack;
+	stack = double_stack_new(nargs);
+	if(is_operator(args[i])){
+		double op2 = double_stack_pop(stack;
+		d)
+int is_operator(char * token){
+	char ops [] = "+-X/";
+	for(int i = 0; i < 3; i++){
+		if(token[0] == ops[i]){
+		return 1;
+		}
+	}
+return 0;
+}
